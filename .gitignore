@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.py[cod]
 *.so
@@ -41,3 +41,11 @@ wandb/
 *.doc
 *.docx
 *.zip
+
+# Phase 3 local/generated artifacts
+Phase3/data/
+Phase3/artifacts/
+Phase3/outputs/
+Phase3/notebook_exports/
+Phase3/AIR_Phase3_FULL_RESULTS*
+Phase3/AIR_Phase3_FINAL_COMPLETED*

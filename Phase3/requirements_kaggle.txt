@@ -1,0 +1,12 @@
+# Keep Kaggle's preinstalled CUDA-enabled PyTorch. Do not reinstall torch here.
+numpy<2
+pandas
+pyarrow
+scipy
+pillow
+tqdm
+tabulate
+faiss-cpu<1.11
+sentence-transformers[image]>=5.4
+transformers>=4.57
+qwen-vl-utils>=0.0.14
