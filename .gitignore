@@ -1,0 +1,43 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Phase 1 generated artifacts
+Phase1/crawled.json
+Phase1/preprocessed.json
+Phase1/index/
+
+# Phase 2 downloaded/generated datasets
+Phase2/books.csv
+Phase2/books_with_description_emb.csv
+Phase2/classification_*.csv
+
+# Models/checkpoints
+*.model
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+models/
+wandb/
+
+# Reports / source archives
+*.pdf
+*.doc
+*.docx
+*.zip
